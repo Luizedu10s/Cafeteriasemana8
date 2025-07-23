@@ -1,0 +1,47 @@
+.cardPrice {
+    display: flex;
+    justify-content: center;
+    padding: 1.8rem;
+}
+
+.carrosel {
+    width: 65%;
+}
+
+.carrosel img {
+    aspect-ratio: 16/9;
+}
+
+.divcarrosel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
